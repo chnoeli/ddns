@@ -16,7 +16,7 @@ response = requests.get(godaddyBaseURL + "v1/domains/" +
 godaddyIP = response.json()[0]['data']
 
 print("Godaddy IP: " + godaddyIP + " Current Public IP: " + currentPublicIp)
-# check if dns record is already equal
+#  eck if dns record is already equal
 if currentPublicIp != godaddyIP:
     print("Public IP is different updating DNS Record")
     uri = godaddyBaseURL + "v1/domains/" + \

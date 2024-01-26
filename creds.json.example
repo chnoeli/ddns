@@ -1,4 +1,6 @@
 {
     "key": "<key>",
-    "secret": "<secret>"
+    "secret": "<secret>",
+    "domain": "example.com",
+    "cn": "myhome"
 }
